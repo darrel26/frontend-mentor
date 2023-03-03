@@ -1,0 +1,23 @@
+.card-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 277px;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.card-container img {
+  width: inherit;
+  border-radius: 11px;
+}
+
+.card-container h2 {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.card-container p {
+  font-size: 14px;
+  padding: 0 15px;
+  color: hsl(220, 15%, 55%);
+}
