@@ -1,0 +1,116 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 700px;
+  background-color: white;
+}
+
+.card-container img {
+  border-radius: 20px 20px 0 0;
+}
+
+.details {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 50px;
+}
+
+.details h1 {
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.details p {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 16px;
+  padding: 0 25px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-container {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 25px 0;
+  background-color: #f8f9fe;
+  padding: 25px;
+}
+
+.plan-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.package-container {
+  display: flex;
+  flex: 1;
+  margin: 0 20px;
+  flex-direction: column;
+}
+
+.package-container h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.package-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.plan-container a {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.plan-container a:active {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.btn-proceed {
+  background-color: hsl(245, 75%, 52%);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-proceed:active {
+  background-color: #766cf1;
+}
+
+.btn-cancel {
+  margin-top: 25px;
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
+  color: hsl(224, 23%, 55%);
+  width: fit-content;
+  display: flex;
+  align-self: center;
+}
+
+.btn-cancel:active {
+  color: hsl(223, 47%, 23%);
+}
