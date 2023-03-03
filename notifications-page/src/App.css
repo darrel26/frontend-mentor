@@ -1,0 +1,116 @@
+#root {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.notifications-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  font-size: 14px;
+  font-weight: 800;
+  color: hsl(219, 14%, 63%);
+}
+
+.new-notifications {
+  width: 32px;
+  height: 25px;
+  background-color: #0a3278;
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  margin-left: 6px;
+}
+
+.notifications-header h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.notifications-container {
+  width: 100%;
+}
+
+.notification-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px 0 30px;
+}
+
+.notification-card.active {
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 15px 0 15px;
+}
+
+.notification-card img {
+  width: 35px;
+  height: 35px;
+}
+
+.notification-card span {
+  padding-right: 4px;
+}
+
+.notification-card p {
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 16px;
+}
+.notification-name,
+.notification-details,
+.notification-group {
+  font-weight: 800;
+}
+
+.notification-description {
+  flex: 2;
+}
+
+.notification-group {
+  color: hsl(219, 85%, 26%);
+}
+
+.notification-date {
+  margin: 0;
+  color: hsl(219, 14%, 63%);
+}
+
+.private-message {
+  font-size: 14px;
+  text-align: left;
+  padding: 15px;
+  margin: 0 10px;
+  margin-right: 0;
+  margin-top: 10px;
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 4px;
+  color: hsl(219, 14%, 63%);
+}
+
+.red-dot {
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 2px;
+  border-radius: 100%;
+}
+
+@media (min-width: 375px) {
+  .navbar {
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+}
